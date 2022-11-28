@@ -8,7 +8,7 @@ To add real-time notifications to your project you have to add the following cod
 	1. Import the jquery library to the project.
 	2. After that import firebase js library.
 	3. Place the initial code in the main layout to be able to access it from anywhere.
-  4. Prepare the configuration by following the next section.
+	4. Prepare the configuration by following the next section.
 	5. Call the **saveFcmTokent** Javascript function to get the required token for the device to be able to receive notifications.
 	6. Now you can send your real-time notification with this token by calling the send function.
 
