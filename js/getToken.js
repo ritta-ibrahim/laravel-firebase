@@ -10,7 +10,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
 
-function saveFcmTokent() {
+function saveFcmToken() {
     messaging
         .requestPermission()
         .then(function () {
